@@ -6,7 +6,7 @@
 /*   By: sencetin <sencetin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 13:44:47 by sencetin          #+#    #+#             */
-/*   Updated: 2024/11/30 17:48:05 by sencetin         ###   ########.fr       */
+/*   Updated: 2024/12/03 16:27:25 by sencetin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_print_str(char *s)
 
 	len = 0;
 	if (!s)
-		return (ft_print_str("(null)"));
+		return (write(1, "(null)", 6));
 	while (*s != '\0')
 	{
 		ft_print_char(*s++);

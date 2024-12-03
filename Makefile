@@ -6,14 +6,14 @@
 #    By: sencetin <sencetin@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/30 13:37:50 by sencetin          #+#    #+#              #
-#    Updated: 2024/11/30 17:44:26 by sencetin         ###   ########.fr        #
+#    Updated: 2024/12/03 16:25:16 by sencetin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 SOURCES = ft_printf.c ft_print_functions.c ft_print_pointer.c
 OBJECTS = $(SOURCES:.c=.o)
-CC = gcc
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
 AR = ar rcs
 
